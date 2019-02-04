@@ -3,6 +3,12 @@
 A Particle Photon powered physical alarm clock that plays _**Rick Astley - Never Gonna Give You Up**_, until you get out of bed, and within 75mm of the ultrasonic sensor. Alarm is set from an Android app.
 This was my take on an assignments in Embedded Systems, _spring 2018_.
 
+### Video demo (in Norwegian)
+<a href="https://youtu.be/KZkot4DFyu4
+" target="_blank"><img src="http://img.youtube.com/vi/KZkot4DFyu4/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+
+
 ### Requirements
 ##### Hardware
 - Particle Photon (Wifi-enabled dev-kit)
@@ -20,7 +26,7 @@ This was my take on an assignments in Embedded Systems, _spring 2018_.
 
 ### Hardware diagram
 
-Attached is a hardware wire diagram, made with Fritzing.
+Attached is hardware wire diagram, made with Fritzing.
 ![Alt Text](assets/hw_diagram_fzz.jpg?raw=true, "Fritzing diagram")
 
 ### Particle Photon
@@ -36,17 +42,8 @@ I have not refactored the code, and will only bother doing so if I find the need
 app in the future.
 I have omitted the all gradle, ide, properties and build files, so I suggest making a new project in Android Studio and experimenting when importing the code. Should be fairly simple if familiar with Android development, or Java.
 
-### Video demo
-
-<a href="https://youtu.be/KZkot4DFyu4
-" target="_blank"><img src="http://img.youtube.com/vi/KZkot4DFyu4/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 ### Resources and links
-![SPI vs hard-wiring](http://maxembedded.com/2013/11/the-spi-of-the-avr)
-
-![Adafruit ST7735 lib](https://github.com/adafruit/Adafruit-ST7735-Library/)
-
-![Youtube- Rick Astley - Never Gonna Give You Up](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-![Particle Community - ST7735 not working..](https://community.particle.io/t/tft-display-1-8-st7735-not-working-with-particle-photon/37655/2)
+- ![SPI vs hard-wiring](http://maxembedded.com/2013/11/the-spi-of-the-avr)
+- ![Adafruit ST7735 lib](https://github.com/adafruit/Adafruit-ST7735-Library/)
+- ![Youtube- Rick Astley - Never Gonna Give You Up](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- ![Particle Community - ST7735 not working..](https://community.particle.io/t/tft-display-1-8-st7735-not-working-with-particle-photon/37655/2)
